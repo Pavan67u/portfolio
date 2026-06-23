@@ -157,7 +157,7 @@ contactForm.addEventListener('submit', (e) => {
   const message = document.getElementById('message').value;
   const subject = encodeURIComponent(`Portfolio Contact from ${name}`);
   const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
-  window.location.href = `mailto:charypavan685@gmail.com?subject=${subject}&body=${body}`;
+  window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=charypavan685@gmail.com&su=${subject}&body=${body}`;
 });
 
 /* — SMOOTH SCROLL for anchor links — */
