@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pavan Chary — Software Developer</title>
+  <meta name="description" content="Pavan Chary — Computer Science graduate from GITAM University. Full-stack developer specializing in Python, AI/ML, and web technologies." />
+  <meta name="keywords" content="Pavan Chary, software developer, Python, React, YOLOv8, FastAPI, full-stack, AI, ML, Hyderabad" />
+  <meta name="author" content="Auvsula Pavan Chary" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pavan Chary — Software Developer" />
+  <meta property="og:description" content="CS graduate who builds end-to-end systems. Python · React · AI/ML · Docker." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pavan67u.github.io" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Pavan Chary — Software Developer" />
+  <meta name="twitter:description" content="CS graduate who builds end-to-end systems. Python · React · AI/ML · Docker." />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Auvsula Pavan Chary",
+    "jobTitle": "Software Developer",
+    "email": "charypavan685@gmail.com",
+    "url": "https://pavan67u.github.io",
+    "sameAs": [
+      "https://linkedin.com/in/pavan-chary-5863873aa",
+      "https://github.com/Pavan67u"
+    ],
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "GITAM University"
+    }
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav-wrapper" id="navbar">
+  <nav class="nav-inner">
+    <a href="#hero" class="nav-logo">PC<span class="logo-dot">.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="theme-icon">☀</span>
+      </button>
+      <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Hire Me</button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <div class="hero-grid"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">Available for opportunities</div>
+    <h1 class="hero-name">Pavan Chary</h1>
+    <p class="hero-title">
+      <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+    </p>
+    <p class="hero-desc">CS graduate who genuinely enjoys building software — figuring out how pieces fit together and seeing something work end-to-end. From computer vision pipelines to AI-powered document assistants.</p>
+    <div class="hero-cta">
+      <a href="assets/resume.pdf" download class="btn btn-primary">
+        <span>↓</span> Download Resume
+      </a>
+      <a href="#contact" class="btn btn-ghost">Get in Touch →</a>
+    </div>
+    <div class="hero-social">
+      <a href="https://github.com/Pavan67u" target="_blank" rel="noopener" class="social-link">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+        GitHub
+      </a>
+      <a href="https://linkedin.com/in/pavan-chary-5863873aa" target="_blank" rel="noopener" class="social-link">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+      <a href="mailto:charypavan685@gmail.com" class="social-link">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+        Email
+      </a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="code-card glass">
+      <div class="code-header">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="code-filename">pavan.py</span>
+      </div>
+      <pre class="code-body"><code><span class="kw">class</span> <span class="cls">PavanChary</span>:
+    <span class="kw">def</span> <span class="fn">__init__</span>(self):
+        self.role = <span class="str">"Software Developer"</span>
+        self.location = <span class="str">"Hyderabad, IN"</span>
+        self.languages = [
+            <span class="str">"Python"</span>, <span class="str">"Java"</span>, <span class="str">"C"</span>, <span class="str">"SQL"</span>
+        ]
+        self.stack = [
+            <span class="str">"FastAPI"</span>, <span class="str">"React"</span>, <span class="str">"Docker"</span>
+        ]
+        self.passion = <span class="str">"end-to-end systems"</span>
+
+    <span class="kw">def</span> <span class="fn">build</span>(self, idea):
+        <span class="kw">return</span> ship(idea) <span class="cmt"># ✓</span></code></pre>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">About</span>
+      <h2>Building things that work end-to-end</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="about-lead">I'm a Computer Science graduate from GITAM University who genuinely enjoys the process of building software — figuring out how pieces fit together and seeing something work end-to-end.</p>
+        <p>Whether it's a computer vision pipeline that processes video into structured violation records, an AI assistant that answers questions from PDFs using local language models, or a government document retrieval system deployed inside a security-cleared facility — I care about building things that actually solve problems.</p>
+        <p>I pick up new tools quickly, collaborate well in teams, and want a software developer role where I can contribute from day one and keep growing.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Production Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">6w</span>
+            <span class="stat-label">Govt. Internship</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">7.68</span>
+            <span class="stat-label">CGPA</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-strengths">
+        <h3>Key Strengths</h3>
+        <div class="strength-list">
+          <div class="strength-item">
+            <span class="strength-icon">⚙</span>
+            <div>
+              <strong>Systems thinking</strong>
+              <p>Designs modular, maintainable architectures from first principles</p>
+            </div>
+          </div>
+          <div class="strength-item">
+            <span class="strength-icon">🤖</span>
+            <div>
+              <strong>AI/ML integration</strong>
+              <p>Connects CV models, vector search, and LLMs into working pipelines</p>
+            </div>
+          </div>
+          <div class="strength-item">
+            <span class="strength-icon">🚀</span>
+            <div>
+              <strong>Fast learner</strong>
+              <p>Picks up new frameworks and delivers within tight timelines</p>
+            </div>
+          </div>
+          <div class="strength-item">
+            <span class="strength-icon">🐳</span>
+            <div>
+              <strong>Deployment-ready</strong>
+              <p>Dockerizes every project for reproducible, zero-setup deployment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Skills</span>
+      <h2>Technical toolkit</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category glass">
+        <div class="skill-cat-header">
+          <span class="cat-icon">💻</span>
+          <h3>Languages</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="tag tag-primary">Python</span>
+          <span class="tag tag-primary">Java</span>
+          <span class="tag tag-primary">C</span>
+          <span class="tag tag-primary">SQL</span>
+        </div>
+      </div>
+      <div class="skill-category glass">
+        <div class="skill-cat-header">
+          <span class="cat-icon">🌐</span>
+          <h3>Web & Backend</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="tag tag-blue">FastAPI</span>
+          <span class="tag tag-blue">Flask</span>
+          <span class="tag tag-blue">React</span>
+          <span class="tag tag-blue">HTML/CSS</span>
+          <span class="tag tag-blue">REST APIs</span>
+        </div>
+      </div>
+      <div class="skill-category glass">
+        <div class="skill-cat-header">
+          <span class="cat-icon">🗄</span>
+          <h3>Databases</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="tag tag-green">MySQL</span>
+          <span class="tag tag-green">SQLite</span>
+          <span class="tag tag-green">Schema Design</span>
+          <span class="tag tag-green">Query Optimisation</span>
+          <span class="tag tag-green">Indexing</span>
+        </div>
+      </div>
+      <div class="skill-category glass">
+        <div class="skill-cat-header">
+          <span class="cat-icon">🤖</span>
+          <h3>AI / ML</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="tag tag-purple">YOLOv8</span>
+          <span class="tag tag-purple">Computer Vision</span>
+          <span class="tag tag-purple">Vector Search</span>
+          <span class="tag tag-purple">RAG</span>
+          <span class="tag tag-purple">Object Detection</span>
+        </div>
+      </div>
+      <div class="skill-category glass">
+        <div class="skill-cat-header">
+          <span class="cat-icon">🛠</span>
+          <h3>Tools & DevOps</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="tag tag-orange">Git</span>
+          <span class="tag tag-orange">GitHub</span>
+          <span class="tag tag-orange">Docker</span>
+          <span class="tag tag-orange">VS Code</span>
+        </div>
+      </div>
+      <div class="skill-category glass">
+        <div class="skill-cat-header">
+          <span class="cat-icon">📊</span>
+          <h3>Data Analytics</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="tag tag-teal">Data Literacy</span>
+          <span class="tag tag-teal">Statistics</span>
+          <span class="tag tag-teal">Spreadsheet Analysis</span>
+          <span class="tag tag-teal">Visualisation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Experience</span>
+      <h2>Where I've worked</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-card glass">
+          <div class="timeline-header">
+            <div>
+              <h3>Software Intern</h3>
+              <p class="timeline-org">Ordnance Factory Medak — Government of India</p>
+            </div>
+            <span class="timeline-date">Jun – Jul 2025</span>
+          </div>
+          <p class="timeline-location">📍 Hyderabad, Telangana · Security-cleared facility</p>
+          <ul class="timeline-points">
+            <li>Designed and built a document retrieval system to replace manual search across legacy records in a defence manufacturing environment</li>
+            <li>Created a structured MySQL schema organising documents by type, date, department, and keyword — eliminated duplicate entries</li>
+            <li>Built indexed keyword-based search, significantly reducing lookup time vs prior manual processes</li>
+            <li>Validated against 50+ test queries; documented across all SDLC stages</li>
+            <li>Delivered within 6-week timeline as part of a 4-person team</li>
+          </ul>
+          <div class="timeline-stack">
+            <span class="tag tag-sm">MySQL</span>
+            <span class="tag tag-sm">Python</span>
+            <span class="tag tag-sm">Schema Design</span>
+            <span class="tag tag-sm">SDLC</span>
+            <span class="tag tag-sm">Docker</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section section-alt" id="projects">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Projects</span>
+      <h2>Things I've built</h2>
+    </div>
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="ai">AI/ML</button>
+      <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+      <button class="filter-btn" data-filter="backend">Backend</button>
+    </div>
+    <div class="projects-grid" id="projectsGrid">
+
+      <!-- Project 1 -->
+      <div class="project-card glass" data-tags="ai fullstack" data-featured="true">
+        <div class="project-featured-badge">Featured</div>
+        <div class="project-header">
+          <div class="project-icon">🚦</div>
+          <div class="project-links">
+            <a href="https://github.com/Pavan67u" target="_blank" rel="noopener" class="icon-link" title="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3>Smart Traffic Monitoring System</h3>
+        <p>Real-time traffic violation detection pipeline — processes raw video to identify, track, and flag violations like red-light jumping and lane breaches, generating annotated evidence images per incident.</p>
+        <div class="project-highlights">
+          <span>🎯 9 focused modules</span>
+          <span>🐳 Docker packaged</span>
+          <span>📹 Raw video → violation records</span>
+        </div>
+        <div class="project-stack">
+          <span class="tag tag-sm tag-purple">YOLOv8</span>
+          <span class="tag tag-sm tag-blue">Flask</span>
+          <span class="tag tag-sm tag-primary">Python</span>
+          <span class="tag tag-sm tag-orange">Docker</span>
+          <span class="tag tag-sm tag-green">ByteTrack</span>
+          <span class="tag tag-sm tag-green">SQLite</span>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card glass" data-tags="ai fullstack" data-featured="true">
+        <div class="project-featured-badge">Featured</div>
+        <div class="project-header">
+          <div class="project-icon">🧠</div>
+          <div class="project-links">
+            <a href="https://github.com/Pavan67u" target="_blank" rel="noopener" class="icon-link" title="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3>Intelligent Document Q&A Assistant</h3>
+        <p>Full-stack AI system where users upload PDFs and ask questions in plain English. Backend extracts text, converts to vector embeddings, and uses Gemma 2:9B locally to generate grounded answers.</p>
+        <div class="project-highlights">
+          <span>📄 PDF → vector embeddings</span>
+          <span>🔒 Fully local LLM</span>
+          <span>💬 Conversation history</span>
+        </div>
+        <div class="project-stack">
+          <span class="tag tag-sm tag-primary">Python</span>
+          <span class="tag tag-sm tag-blue">FastAPI</span>
+          <span class="tag tag-sm tag-blue">React</span>
+          <span class="tag tag-sm tag-orange">Docker</span>
+          <span class="tag tag-sm tag-purple">Gemma 2:9B</span>
+          <span class="tag tag-sm tag-purple">RAG</span>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card glass" data-tags="fullstack backend">
+        <div class="project-header">
+          <div class="project-icon">📁</div>
+          <div class="project-links">
+            <a href="https://github.com/Pavan67u" target="_blank" rel="noopener" class="icon-link" title="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3>File Management & Retrieval System</h3>
+        <p>Production-deployed document management portal with 35+ features across the full file lifecycle — upload, preview, versioning, sharing, bulk operations, and role-based access control.</p>
+        <div class="project-highlights">
+          <span>35+ features</span>
+          <span>🔐 RBAC auth</span>
+          <span>🗃 Normalised MySQL schema</span>
+        </div>
+        <div class="project-stack">
+          <span class="tag tag-sm tag-green">MySQL</span>
+          <span class="tag tag-sm tag-orange">Docker</span>
+          <span class="tag tag-sm tag-primary">Python</span>
+          <span class="tag tag-sm tag-orange">Git</span>
+        </div>
+      </div>
+
+    </div>
+    <div class="projects-footer">
+      <a href="https://github.com/Pavan67u" target="_blank" rel="noopener" class="btn btn-ghost">View all on GitHub →</a>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section" id="education">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Education</span>
+      <h2>Academic background</h2>
+    </div>
+    <div class="education-timeline">
+      <div class="edu-card glass reveal">
+        <div class="edu-left">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-line"></div>
+        </div>
+        <div class="edu-content">
+          <div class="edu-header">
+            <div>
+              <h3>B.Tech — Computer Science & Engineering</h3>
+              <p class="edu-institution">GITAM University, Hyderabad</p>
+            </div>
+            <div class="edu-meta">
+              <span class="edu-year">Graduated May 2026</span>
+              <span class="edu-cgpa">CGPA 7.68</span>
+            </div>
+          </div>
+          <p class="edu-courses"><strong>Coursework:</strong> Data Structures · DBMS · Operating Systems · OOP · Software Engineering</p>
+        </div>
+      </div>
+      <div class="edu-card glass reveal">
+        <div class="edu-left">
+          <div class="edu-icon">📚</div>
+        </div>
+        <div class="edu-content">
+          <div class="edu-header">
+            <div>
+              <h3>Intermediate — MPC</h3>
+              <p class="edu-institution">Sri Chaitanya College, Madinaguda</p>
+            </div>
+            <div class="edu-meta">
+              <span class="edu-year">March 2022</span>
+              <span class="edu-cgpa">85%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="section section-alt" id="certifications">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Certifications</span>
+      <h2>Credentials & learning</h2>
+    </div>
+    <div class="cert-grid">
+      <div class="cert-card glass reveal">
+        <div class="cert-logo">
+          <svg width="32" height="32" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#1E3A5F"/><text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="14" font-weight="bold">IS</text></svg>
+        </div>
+        <div class="cert-content">
+          <h3>Java Developer Certification</h3>
+          <p class="cert-issuer">Infosys Springboard</p>
+          <p class="cert-details">Core Java · OOP · Collections · Exception Handling · JDBC</p>
+        </div>
+        <span class="cert-badge">Verified</span>
+      </div>
+      <div class="cert-card glass reveal">
+        <div class="cert-logo">
+          <svg width="32" height="32" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#049FD9"/><text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="14" font-weight="bold">CNA</text></svg>
+        </div>
+        <div class="cert-content">
+          <h3>Data Analytics Essentials</h3>
+          <p class="cert-issuer">Cisco Networking Academy</p>
+          <p class="cert-details">Data literacy · Statistics · Spreadsheet analysis · Visualisation</p>
+        </div>
+        <span class="cert-badge">Verified</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Contact</span>
+      <h2>Let's build something</h2>
+      <p class="section-desc">Open to software developer roles, internships, and interesting collaborations.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <a href="mailto:charypavan685@gmail.com" class="contact-item glass">
+          <span class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+          </span>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">charypavan685@gmail.com</span>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+        <a href="https://linkedin.com/in/pavan-chary-5863873aa" target="_blank" rel="noopener" class="contact-item glass">
+          <span class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </span>
+          <div>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">pavan-chary-5863873aa</span>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+        <a href="https://github.com/Pavan67u" target="_blank" rel="noopener" class="contact-item glass">
+          <span class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+          </span>
+          <div>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">Pavan67u</span>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+      </div>
+      <form class="contact-form glass" id="contactForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form-submit">Send Message →</button>
+        <p class="form-note">This form opens your default mail client.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo">PC<span class="logo-dot">.</span></span>
+        <p>Building end-to-end systems, one commit at a time.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://github.com/Pavan67u" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/pavan-chary-5863873aa" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:charypavan685@gmail.com" aria-label="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Auvsula Pavan Chary. Built with HTML, CSS & JS.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
