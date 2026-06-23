@@ -6,16 +6,16 @@ Personal portfolio website. Built with HTML5, CSS3, Vanilla JS. No dependencies.
 
 ### GitHub Pages (recommended)
 
-1. Create repo: `pavan67u.github.io` (use your GitHub username exactly)
+1. Create repo: `portfolio`
 2. Push all files to `main` branch
 3. Go to **Settings → Pages → Source → main branch → / (root)**
-4. Live at `https://pavan67u.github.io` in ~2 minutes
+4. Live at `https://pavan67u.github.io/portfolio/` in ~2-10 minutes
 
 ```bash
 git init
 git add .
 git commit -m "init: portfolio"
-git remote add origin https://github.com/Pavan67u/pavan67u.github.io.git
+git remote add origin https://github.com/Pavan67u/portfolio.git
 git push -u origin main
 ```
 
