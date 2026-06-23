@@ -1,0 +1,92 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1597 >>
+stream
+BT
+/F1 11 Tf
+50 780 Td
+14 TL
+(Auvsula Pavan Chary) Tj
+T*
+(Software Developer) Tj
+T*
+(Email: charypavan685@gmail.com) Tj
+T*
+(GitHub: github.com/Pavan67u) Tj
+T*
+(LinkedIn: linkedin.com/in/pavan-chary-5863873aa) Tj
+T*
+() Tj
+T*
+(Summary) Tj
+T*
+(Computer Science graduate from GITAM University focused on full-stack development, Python, AI/ML, and practical end-to-end systems.) Tj
+T*
+() Tj
+T*
+(Skills) Tj
+T*
+(Python, Java, C, SQL, FastAPI, Flask, React, HTML/CSS, REST APIs, MySQL, SQLite, YOLOv8, Computer Vision, RAG, Docker, Git.) Tj
+T*
+() Tj
+T*
+(Experience) Tj
+T*
+(Software Intern - Ordnance Factory Medak, Government of India | Jun-Jul 2025) Tj
+T*
+(Built a document retrieval system for legacy records, created a structured MySQL schema, implemented indexed keyword search, and validated against 50+ queries.) Tj
+T*
+() Tj
+T*
+(Projects) Tj
+T*
+(Smart Traffic Monitoring System - real-time violation detection with YOLOv8, Flask, ByteTrack, SQLite, and Docker.) Tj
+T*
+(Intelligent Document Q&A Assistant - PDF upload, vector embeddings, local Gemma 2:9B, FastAPI, React, and Docker.) Tj
+T*
+(File Management & Retrieval System - document portal with upload, preview, versioning, sharing, bulk operations, RBAC, and MySQL.) Tj
+T*
+() Tj
+T*
+(Education) Tj
+T*
+(B.Tech, Computer Science & Engineering - GITAM University, Hyderabad | Graduated May 2026 | CGPA 7.68) Tj
+T*
+(Intermediate MPC - Sri Chaitanya College, Madinaguda | March 2022 | 85%) Tj
+T*
+() Tj
+T*
+(Certifications) Tj
+T*
+(Java Developer Certification - Infosys Springboard) Tj
+T*
+(Data Analytics Essentials - Cisco Networking Academy) Tj
+T*
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1960
+%%EOF
